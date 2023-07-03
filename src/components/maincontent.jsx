@@ -1,9 +1,10 @@
 import React from 'react'
+import '../styles/components/maincontent.sass';
 
 export default function MainContent() {
   return (
-    <div>
+    <main id='main-content'>
         
-    </div>
+    </main>
   )
 }

@@ -1,14 +1,15 @@
 import React from 'react';
 import '../styles/components/sidebar.sass'
+import Social from './social';
 
 export default function SideBar() {
   return (
     <aside id='sidebar'>
         <img src="https://avatars.githubusercontent.com/u/101431445?v=4" alt="Foto Lucas Kahlil" />
-        <p>Desenvolvedor Front-End | Full Stack</p>
-        <p>Redes Sociais</p>
+        <p className='title'>Desenvolvedor Front-End | Full Stack</p>
+        <Social />
         <p>Informações de contato</p>
-        <a href="">Download Currículo</a>
+        <p className='btn'>Download Currículo</p>
     </aside>
   )
 }
