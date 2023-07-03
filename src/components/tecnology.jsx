@@ -21,7 +21,7 @@ export default function Tecnology() {
   ]
 
   return (
-    <section className='tech-containers'>
+    <section className='tech-container'>
       <h2>Tecnologias</h2>
       <div className='tech-grid'>
         {techs.map((tech) => (
