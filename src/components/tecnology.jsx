@@ -1,5 +1,5 @@
 import React from 'react'
-import { DiHtml5, DiCss3, DiNodejsSmall, DiSass, DiReact, DiGit, DiGithubBadge, } from 'react-icons/di'
+import { DiHtml5, DiCss3, DiNodejsSmall, DiSass, DiReact, DiGit, DiGithubBadge } from 'react-icons/di'
 import { SiStyledcomponents, SiNestjs } from 'react-icons/si'
 import { BiLogoJavascript, BiLogoTypescript } from 'react-icons/bi'
 import '../styles/components/tecnology.sass'
@@ -23,14 +23,14 @@ export default function Tecnology() {
   return (
     <section className='tech-container'>
       <h2>Tecnologias</h2>
-      <div className='tech-grid'>
-        {techs.map((tech) => (
-          <div className='tech-card' id={tech.id} key={tech.id}>
-            {tech.icon}
-            <h3>{tech.name}</h3>
-          </div>
-        ))}
-      </div>
+        <div className='tech-grid'>
+          {techs.map((tech) => (
+            <div className='tech-card' id={tech.id} key={tech.id}>
+              {tech.icon}
+              <h3>{tech.name}</h3>
+            </div>
+          ))}
+        </div>
     </section>
   )
 }
