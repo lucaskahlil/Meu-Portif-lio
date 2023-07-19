@@ -1,0 +1,18 @@
+@use '../variables'
+@use '../mixins'
+
+#card
+    @include mixins.center
+    flex-direction: column
+    gap: 10px   
+    width: 200px
+    border-radius: variables.$card-border-radius
+    border: solid 1px #333
+
+    img
+        width: 100%
+
+    h3 
+        font-size: 1rem
+        color: variables.$text-color
+        margin-bottom: 10px

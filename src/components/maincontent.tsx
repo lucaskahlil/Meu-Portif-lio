@@ -1,4 +1,3 @@
-import React from 'react'
 import '../styles/components/maincontent.sass';
 import Profile from './profile';
 import Tecnology from './tecnology';
