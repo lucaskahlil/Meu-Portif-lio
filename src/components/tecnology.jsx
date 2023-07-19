@@ -16,7 +16,7 @@ export default function Tecnology() {
     {id: "sass", name: "SASS", icon: <DiSass />},
     {id: "git", name: "Git", icon: <DiGit />},
     {id: "github", name: "GitHub", icon: <DiGithubBadge />},
-    {id: "styled", name: "Styled-Components", icon: <SiStyledcomponents />},
+    {id: "styled", name: "Styled Components", icon: <SiStyledcomponents />},
     {id: "nest", name: "NestJS", icon: <SiNestjs />}
   ]
 
