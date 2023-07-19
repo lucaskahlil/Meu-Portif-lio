@@ -1,5 +1,10 @@
 import React from 'react'
 import '../styles/components/card-project.sass'
+import { Project } from '../types/request'
+
+interface CardProjectProps {
+  ProjectProps: Project
+}
 
 export default function CardProject() {
   return (

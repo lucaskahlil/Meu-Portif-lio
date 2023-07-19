@@ -11,6 +11,7 @@ export default function Projects() {
         <CardProject />
         <CardProject />
         <CardProject />
+        <CardProject />
       </div>
     </section>
   );
