@@ -9,7 +9,7 @@ export default function Information() {
             <AiOutlineWhatsApp id='phone-icon'/>
             <div>
                 <h3>Telefone</h3>
-                <p>+55 (84) 98726-5840</p>
+                <a href='https://wa.me/5584987265840' target='_blank'>+55 (84) 98726-5840</a>
             </div>
         </div>
 
