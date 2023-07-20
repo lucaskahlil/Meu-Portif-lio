@@ -5,4 +5,5 @@ export interface Project {
     images: string[]
     description: string
     status: string
+    urlRepository: string
 }

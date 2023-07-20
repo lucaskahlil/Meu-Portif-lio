@@ -6,10 +6,10 @@ export default function Information() {
   return (
     <section id='information'>
         <div className='infor-card'>
-            <AiOutlineWhatsApp id='phone-icon'/>
+            <a href="https://wa.me/5584987265840?text=Oi%2C%20tudo%20bem%3F" target='_blank'><AiOutlineWhatsApp id='phone-icon'/></a>
             <div>
                 <h3>Telefone</h3>
-                <a href='https://wa.me/5584987265840' target='_blank'>+55 (84) 98726-5840</a>
+                <a href='https://wa.me/5584987265840?text=Oi%2C%20tudo%20bem%3F' target='_blank'>+55 (84) 98726-5840</a>
             </div>
         </div>
 
